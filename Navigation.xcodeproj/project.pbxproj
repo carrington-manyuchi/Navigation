@@ -13,6 +13,8 @@
 		2388999B29A9503E006A7859 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2388999929A9503E006A7859 /* Main.storyboard */; };
 		2388999D29A9503F006A7859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2388999C29A9503F006A7859 /* Assets.xcassets */; };
 		238899A029A9503F006A7859 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2388999E29A9503F006A7859 /* LaunchScreen.storyboard */; };
+		238899A829A95156006A7859 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238899A729A95156006A7859 /* FirstViewController.swift */; };
+		238899AA29A95325006A7859 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238899A929A95324006A7859 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2388999C29A9503F006A7859 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2388999F29A9503F006A7859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		238899A129A9503F006A7859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		238899A729A95156006A7859 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		238899A929A95324006A7859 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				2388999329A9503E006A7859 /* AppDelegate.swift */,
 				2388999529A9503E006A7859 /* SceneDelegate.swift */,
+				238899A929A95324006A7859 /* SecondViewController.swift */,
+				238899A729A95156006A7859 /* FirstViewController.swift */,
 				2388999729A9503E006A7859 /* ViewController.swift */,
 				2388999929A9503E006A7859 /* Main.storyboard */,
 				2388999C29A9503F006A7859 /* Assets.xcassets */,
@@ -140,6 +146,8 @@
 				2388999829A9503E006A7859 /* ViewController.swift in Sources */,
 				2388999429A9503E006A7859 /* AppDelegate.swift in Sources */,
 				2388999629A9503E006A7859 /* SceneDelegate.swift in Sources */,
+				238899AA29A95325006A7859 /* SecondViewController.swift in Sources */,
+				238899A829A95156006A7859 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
